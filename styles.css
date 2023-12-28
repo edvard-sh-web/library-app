@@ -1,0 +1,59 @@
+body{
+	
+}
+
+.container{
+	padding-top: 30px;
+	box-shadow: 0px 0px 20px black;
+	height: 95vh;
+	display: grid;
+	justify-items: center;
+	grid-template-rows: 100px 1fr;
+	row-gap: 100px;
+
+	background-color: lightgrey;
+}
+button {
+	padding: 10px 20px;
+
+}
+.card button {
+	top: 20px;
+	right: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+	justify-self: right;
+	padding: 0px 10px;
+
+}
+
+dialog button {
+	border-radius: 10px;
+	border: 1px solid darkgray;
+}
+.add-book-btn {
+	padding: 20px 40px;
+	height: 60px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 0px 5px black;
+}
+.lib {
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 30px;
+}
+.card{
+	position: relative;
+	height: 200px;
+	background-color: darkgray;
+	border-radius: 15px;
+	padding: 15px;
+	display: grid;
+	justify-items: center;
+	grid-template-rows: 30px repeat(4, 50px);
+	box-shadow: 0px 0px 5px black;
+
+}
+
